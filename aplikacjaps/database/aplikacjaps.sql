@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Czas generowania: 25 Cze 2023, 02:30
+-- Czas generowania: 25 Cze 2023, 02:03
 -- Wersja serwera: 10.4.25-MariaDB
 -- Wersja PHP: 8.1.10
 
@@ -145,7 +145,7 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `email`, `password`, `type`, `firstname`, `lastname`, `address`, `contact_info`, `photo`, `created_on`) VALUES
 (13, 'momo@momo.com', '$2y$10$Nq2dJ7JRbiqziJodwYFveOnKBd.0pK7ntaVF4UU4fEJ8wmRtsYGd.', 0, 'momo', 'momo', '', '', '', '2023-06-24'),
-(15, 'admin@admin.com', '$2y$10$4FY88OiC0zMcFo0Cbn4V.OPkKcGbHt3TheN66Ukp4vRPkYYXz7Tl.', 1, 'admin', 'admin', '', '', '', '2023-06-24');
+(15, 'admin@admin.com', '$2y$10$7PKt9zOdTud9iNdhGYyTpe2hpEIIwhueFDNjkU5G2jjh/EBDe9OWq', 1, 'admin', 'admin', '', '', '', '2023-06-24');
 
 --
 -- Indeksy dla zrzutów tabel

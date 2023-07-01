@@ -12,10 +12,9 @@
       <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
         <ul class="nav navbar-nav">
           <li><a href="index.php">STRONA GŁÓWNA</a></li>
-          <li><a href="">O NAS</a></li>
-          <li><a href="">KONTAKT</a></li>
+          
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">KATEGORIA <span class="caret"></span></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">KATEGORIE <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
               <?php
              
@@ -37,6 +36,8 @@
               ?>
             </ul>
           </li>
+          <li><a href="about.php">O NAS</a></li>
+          <li><a href="contact.php">KONTAKT</a></li>
         </ul>
         <form method="POST" class="navbar-form navbar-left" action="search.php">
           <div class="input-group">
